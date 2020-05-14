@@ -1,17 +1,17 @@
-# akita-government
+# PARKING STATION
 
 
 ## How to Use
 
-**Still in development and testing. Unexpected errors and loss of funds may occur. Feedback is welcome!**
+**Still in development and testing. Constructive feedback is appreciated!**
 
 ## Usage
 
 ### 1. Clone repository
 
-Clone git repository from [machineeconomy/akita-government](https://github.com/machineeconomy/akita-government)
+Clone git repository from [TheBluePhoenix10/Mass-Lockdown-Marketplace](https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace)
 ```bash
-git clone https://github.com/machineeconomy/akita-government.git
+git clone https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace.git
 ```
 
 ### 2. create.env
@@ -29,8 +29,8 @@ SEED='REPLACEWITHEIGHTYONETRYTESEED'
 IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
-NAME="Akita government"
-VALUE=1
+NAME="parking station"
+VALUE=0
 ```
 
 ### 3. Generate new seed
@@ -41,12 +41,6 @@ Create a seed and insert it to your .env file.
  enter this line in your terminal.
 ```bash
 cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
-```
-
-#### Mac
- enter this line in your terminal.
-```bash
-cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
 ```
 
 #### Windows
