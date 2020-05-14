@@ -1,7 +1,7 @@
 # Packaging bot
 
 ### 1. Clone repository
-
+Clone git repository from [TheBluePhoenix10/Mass-Lockdown-Marketplace](https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace)
 ```bash
 https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace.git
 ```
