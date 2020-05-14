@@ -1,17 +1,12 @@
-# akita-energy
+# Delivery bot
 
 
 ## How to Use
 
-**Still in development and testing. Unexpected errors and loss of funds may occur. Feedback is welcome!**
-
-## Usage
-
 ### 1. Clone repository
 
-Clone git repository from [machineeconomy/akita-energy](https://github.com/machineeconomy/akita-energy)
 ```bash
-git clone https://github.com/machineeconomy/akita-energy.git
+https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace.git
 ```
 
 ### 2. create.env
@@ -30,8 +25,8 @@ IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
 PROVIDER_URL='http://localhost:5002/iotapay/api'
-NAME="Wind Energy"
-VALUE=2
+NAME="Delivery bot"
+VALUE=0
 ```
 
 ### 3. Generate new seed
@@ -43,23 +38,6 @@ Create a seed and insert it to your .env file.
 ```bash
 cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
 ```
-
-#### Mac
- enter this line in your terminal.
-```bash
-cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
-```
-
-#### Windows
-For Windows, the best way is to use [KeePass](https://keepass.info/), or use one of the two online generators above.
-
-You will want to use the password generator with the following settings:
-
-- Length of generated password: 81
-- Check Upper-case (A, B, C, ...)
-- Make sure all other boxes are unchecked
-- Also include the following characters: 9
-
 ### 4. Setup energy
 
 - Insert your government provider url from [machineeconomy/akita-government](https://github.com/machineeconomy/akita-government)
