@@ -16,6 +16,8 @@ MAX_PAYMENT_TIME is the time until created paymentes aren't checked anymore in m
 
 If you want to send payouts, without receiving iotas via payments first, send the iotas to the first address of the seed (index 0)
 
+if you want to do payments using IOTA change the "VALAUE" parameter from "0" to the desired value
+
 ```bash
 SEED='REPLACEWITHEIGHTYONETRYTESEED'
 IOTANODE='https://nodes.thetangle.org:443'
