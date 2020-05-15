@@ -17,7 +17,7 @@ MAX_PAYMENT_TIME is the time until created paymentes aren't checked anymore in m
 
 If you want to send payouts, without receiving iotas via payments first, send the iotas to the first address of the seed (index 0)
 
-if you want to do payments using IOTA change the "VALAUE" parameter from "0" to the desired value
+if you want to do payments using IOTA change the "VALUE" parameter from "0" to the desired value
 
 ```bash
 SEED='REPLACEWITHEIGHTYONETRYTESEED'
@@ -48,7 +48,7 @@ npm run build
 cd ..
 ```
 
-### 5. Run server
+### 5. Run parking station bot
 
 enter these lines in your terminal.
 ```bash
