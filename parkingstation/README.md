@@ -38,16 +38,6 @@ Create a seed and insert it to your .env file.
 cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
 ```
 
-#### Windows
-For Windows, the best way is to use [KeePass](https://keepass.info/), or use one of the two online generators above.
-
-You will want to use the password generator with the following settings:
-
-- Length of generated password: 81
-- Check Upper-case (A, B, C, ...)
-- Make sure all other boxes are unchecked
-- Also include the following characters: 9
-
 ### 5. Build the frontend
 
 enter these lines in your terminal.
