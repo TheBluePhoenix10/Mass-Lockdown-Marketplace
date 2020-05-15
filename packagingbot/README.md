@@ -16,7 +16,7 @@ MAX_PAYMENT_TIME is the time until created paymentes aren't checked anymore in m
 
 If you want to send payouts, without receiving iotas via payments first, send the iotas to the first address of the seed (index 0)
 
-if you want to do payments using IOTA change the "VALAUE" parameter from "0" to the desired value
+if you want to do payments using IOTA change the "VALUE" parameter from "0" to the desired value
 
 ```bash
 SEED='REPLACEWITHEIGHTYONETRYTESEED'
@@ -24,7 +24,7 @@ IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
 PROVIDER_URL='http://localhost:5001/iotapay/api'
-NAME="Packaging bot"
+NAME="packaging bot"
 VALUE=0
 ```
 
@@ -40,7 +40,7 @@ cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
 ### 4. Setup packaging bot
 
 - Insert your provider url from [TheBluePhoenix10/Mass-Lockdown-Marketplace](https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace)
-- Insert your name (example: "Packaging Bot")
+- Insert your name (example: "packaging bot")
 - Insert an IOTA Value. (example: 3) 
 
 ### 5. Build the frontend
