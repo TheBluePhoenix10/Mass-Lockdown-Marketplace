@@ -42,10 +42,10 @@ Create a seed and insert it to your .env file.
 ```bash
 cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
 ```
-### 4. Setup energy
+### 4. Setup delivery bot
 
-- Insert your government provider url from [machineeconomy/akita-government](https://github.com/machineeconomy/akita-government)
-- Insert your name (example: "Wind Energy")
+- Insert your server provider url from [TheBluePhoenix10/Mass-Lockdown-Marketplace](https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace)
+- Insert your name (example: "delivery bot")
 - Insert an IOTA Value. (example: 2) 
 
 ### 5. Build the frontend
@@ -58,7 +58,7 @@ npm run build
 cd ..
 ```
 
-### 6. Run energy
+### 6. Run delivery bot
 
 enter this lines in your terminal.
 ```bash
