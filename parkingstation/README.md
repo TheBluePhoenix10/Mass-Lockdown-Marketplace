@@ -48,7 +48,7 @@ npm run build
 cd ..
 ```
 
-### 5. Run government
+### 5. Run server
 
 enter these lines in your terminal.
 ```bash
