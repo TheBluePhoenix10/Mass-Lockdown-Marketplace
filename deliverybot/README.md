@@ -5,10 +5,9 @@
 
 ### 1. Clone repository
 
-Clone git repository from TheBluePhoenix10/Mass-Lockdown-Marketplace
-
+Clone git repository from [TheBluePhoenix10/Mass-Lockdown-Marketplace](https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace)
 ```bash
-https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace.git
+git clone https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace.git
 ```
 
 ### 2. create.env
@@ -21,7 +20,7 @@ MAX_PAYMENT_TIME is the time until created paymentes aren't checked anymore in m
 
 If you want to send payouts, without receiving iotas via payments first, send the iotas to the first address of the seed (index 0)
 
-if you want to do payments using IOTA change the "VALAUE" parameter from "0" to the desired value
+if you want to do payments using IOTA change the "VALUE" parameter from "0" to the desired value
 
 ```bash
 SEED='REPLACEWITHEIGHTYONETRYTESEED'
@@ -29,7 +28,7 @@ IOTANODE='https://nodes.thetangle.org:443'
 FALLBACKNODE='https://node01.iotatoken.nl'
 MAX_PAYMENT_TIME=4320
 PROVIDER_URL='http://localhost:5002/iotapay/api'
-NAME="Delivery bot"
+NAME="delivery bot"
 VALUE=0
 ```
 
