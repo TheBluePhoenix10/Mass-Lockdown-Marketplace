@@ -37,10 +37,10 @@ Create a seed and insert it to your .env file.
 ```bash
 cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
 ```
-### 4. Setup robot
+### 4. Setup packaging bot
 
-- Insert your provider url from [machineeconomy/akita-energy](https://github.com/machineeconomy/akita-energy)
-- Insert your name (example: "Robot")
+- Insert your provider url from [TheBluePhoenix10/Mass-Lockdown-Marketplace](https://github.com/TheBluePhoenix10/Mass-Lockdown-Marketplace)
+- Insert your name (example: "Packaging Bot")
 - Insert an IOTA Value. (example: 3) 
 
 ### 5. Build the frontend
@@ -53,7 +53,7 @@ npm run build
 cd ..
 ```
 
-### 6. Run robot
+### 6. Run packaging bot
 
 enter this lines in your terminal.
 ```bash
