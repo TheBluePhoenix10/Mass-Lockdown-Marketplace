@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "exec-sync": "file:node_modules/node-exec-sync",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ffi": "^2.3.0",
     "iota-payment": "0.0.25",
     "python-shell": "^1.0.8"
